@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190B37EF1E27636F00A5C1B1 /* UIButton+Align.m in Sources */ = {isa = PBXBuildFile; fileRef = 190B37EE1E27636F00A5C1B1 /* UIButton+Align.m */; };
 		19F43C421E2355B8001B72CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F43C411E2355B8001B72CD /* main.m */; };
 		19F43C451E2355B8001B72CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F43C441E2355B8001B72CD /* AppDelegate.m */; };
 		19F43C481E2355B8001B72CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F43C471E2355B8001B72CD /* ViewController.m */; };
 		19F43C4B1E2355B8001B72CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F43C491E2355B8001B72CD /* Main.storyboard */; };
 		19F43C4D1E2355B8001B72CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F43C4C1E2355B8001B72CD /* Assets.xcassets */; };
 		19F43C501E2355B8001B72CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F43C4E1E2355B8001B72CD /* LaunchScreen.storyboard */; };
-		19F43C5A1E235606001B72CD /* UIButton+Align.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F43C591E235606001B72CD /* UIButton+Align.m */; };
+		19F43C621E23584B001B72CD /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F43C611E23584B001B72CD /* UIImage+Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		190B37ED1E27636F00A5C1B1 /* UIButton+Align.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Align.h"; sourceTree = "<group>"; };
+		190B37EE1E27636F00A5C1B1 /* UIButton+Align.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Align.m"; sourceTree = "<group>"; };
 		19F43C3D1E2355B8001B72CD /* DYCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F43C411E2355B8001B72CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		19F43C431E2355B8001B72CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +30,8 @@
 		19F43C4C1E2355B8001B72CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19F43C4F1E2355B8001B72CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19F43C511E2355B8001B72CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19F43C581E235606001B72CD /* UIButton+Align.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Align.h"; sourceTree = "<group>"; };
-		19F43C591E235606001B72CD /* UIButton+Align.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Align.m"; sourceTree = "<group>"; };
+		19F43C601E23584B001B72CD /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		19F43C611E23584B001B72CD /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		190B37EC1E27636F00A5C1B1 /* UIButton+Align */ = {
+			isa = PBXGroup;
+			children = (
+				190B37ED1E27636F00A5C1B1 /* UIButton+Align.h */,
+				190B37EE1E27636F00A5C1B1 /* UIButton+Align.m */,
+			);
+			path = "UIButton+Align";
+			sourceTree = "<group>";
+		};
 		19F43C341E2355B8001B72CD = {
 			isa = PBXGroup;
 			children = (
@@ -86,10 +98,19 @@
 		19F43C571E2355EC001B72CD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				19F43C581E235606001B72CD /* UIButton+Align.h */,
-				19F43C591E235606001B72CD /* UIButton+Align.m */,
+				190B37EC1E27636F00A5C1B1 /* UIButton+Align */,
+				19F43C5F1E23583E001B72CD /* UIImage+Color */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		19F43C5F1E23583E001B72CD /* UIImage+Color */ = {
+			isa = PBXGroup;
+			children = (
+				19F43C601E23584B001B72CD /* UIImage+Color.h */,
+				19F43C611E23584B001B72CD /* UIImage+Color.m */,
+			);
+			path = "UIImage+Color";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,9 +186,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				19F43C481E2355B8001B72CD /* ViewController.m in Sources */,
+				190B37EF1E27636F00A5C1B1 /* UIButton+Align.m in Sources */,
 				19F43C451E2355B8001B72CD /* AppDelegate.m in Sources */,
+				19F43C621E23584B001B72CD /* UIImage+Color.m in Sources */,
 				19F43C421E2355B8001B72CD /* main.m in Sources */,
-				19F43C5A1E235606001B72CD /* UIButton+Align.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +348,7 @@
 				19F43C561E2355B8001B72CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

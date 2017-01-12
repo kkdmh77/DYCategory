@@ -14,7 +14,7 @@
     // contentVerticalAlignment 和 contentHorizontalAlignment 使用默认center，如果修改了会对下面的计算有影响
     
     CGSize imageSize = self.imageView.image.size;
-    CGSize titleSize = self.titleLabel.frame.size;
+    CGSize titleSize = [self.titleLabel.text sizeWithAttributes:@{NSFontAttributeName : self.titleLabel.font}];
     
     if (align == BAVerticalImage) {
         [self setTitleEdgeInsets:UIEdgeInsetsMake(0.0, -imageSize.width, -imageSize.height - spacing/2, 0.0)];
